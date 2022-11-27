@@ -1,0 +1,20 @@
+numpy==1.23.5
+nbformat==5.7.0
+matplotlib==3.6.2
+
+# pytorch for CUDA 11.1 windows
+--extra-index-url https://download.pytorch.org/whl/cu116; platform_system == "Windows"
+torch; platform_system == "Windows"
+torchvision; platform_system == "Windows"
+torchaudio; platform_system == "Windows"
+
+# pytorch cpu linux
+--extra-index-url https://download.pytorch.org/whl/cpu; platform_system=="Linux"
+torch; platform_system=="Linux"
+torchvision; platform_system=="Linux"
+torchaudio; platform_system=="Linux"
+
+# pytorch for macos
+torch; sys_platform == "darwin"
+torchvision; sys_platform == "darwin"
+torchaudio; sys_platform == "darwin"

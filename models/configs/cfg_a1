@@ -1,0 +1,11 @@
+[paths]
+dataset_path = ../data
+filename_ann = ../pytorch_model_a1
+
+[input]
+model_lib = pytorch
+dataset_format = npz
+
+[tools]
+normalize = False
+evaluate_ann = False
