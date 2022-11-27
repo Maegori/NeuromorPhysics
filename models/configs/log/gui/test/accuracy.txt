@@ -1,1 +1,0 @@
-# samples | SNN top-1 | top-1 | ANN top-1 | top-1
